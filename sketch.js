@@ -24,7 +24,7 @@ Drop.prototype.show = function() {
 var d = new Array(500);
 
 function setup() {
-    createCanvas(1250, 650);
+    createCanvas(width, height);
     for(let i = 0; i < d.length; i++) {
         d[i] = new Drop();
     }
